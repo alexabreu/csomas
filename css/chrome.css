@@ -21,6 +21,7 @@ body {
 a { 
 	color           : #000;
 	text-decoration : none;
+	display: block;
 }
 
 a:hover {
@@ -100,7 +101,7 @@ section {
 section .story {
 	position      : relative;
 	z-index       : 1;
-	width         : 800px;
+	width         : 875px;
 	padding-right : 100px;
 	margin        : 20px auto 0 auto;
 }
@@ -152,14 +153,14 @@ ul#nav {
 }
 
 ul#nav li {
-	height   : 50px;
+	height   : 30px;
 	position : relative;
 }
 
 ul#nav a {
 	display     : block;
-	width       : 35px;
-	height      : 35px;
+	width       : 20px;
+	height      : 20px;
 	background  : #000;
 	border-radius: 40px;
 	text-indent : -9000px;
